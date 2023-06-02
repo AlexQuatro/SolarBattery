@@ -598,6 +598,11 @@ h6 {
           align-items: center;
   gap: 30px;
   margin-bottom: 30px;
+  -webkit-transition: -webkit-transform 0.7s;
+  transition: -webkit-transform 0.7s;
+  -o-transition: transform 0.7s;
+  transition: transform 0.7s;
+  transition: transform 0.7s, -webkit-transform 0.7s;
 }
 
 .catalog__item:hover {
